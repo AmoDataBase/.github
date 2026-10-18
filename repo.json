@@ -1,0 +1,6 @@
+{
+  "name": ".github",
+  "description": "Organization profile, code of conduct, security policy and issue templates for amodb.",
+  "homepage": "https://amodb.dev",
+  "topics": ["amodb", "tmdb", "omdb", "movie-api", "tv-api", "community-health"]
+}

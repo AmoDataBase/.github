@@ -1,0 +1,79 @@
+name: Bug report
+description: Something in an amodb SDK, the MCP server, the spec or an example does not work
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for bugs in the code in this repository. For key, billing or account problems write to support@amodb.dev. For security problems write to security@amodb.dev, do not open an issue.
+
+        Never paste a live API key. Remove it from logs and URLs before you submit.
+  - type: dropdown
+    id: package
+    attributes:
+      label: Package
+      options:
+        - amodb-js
+        - amodb-python
+        - amodb-php
+        - amodb-go
+        - amodb-mcp
+        - amodb-openapi
+        - amodb-examples
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+      description: Output of `npm ls amodb`, `pip show amodb`, `composer show amodb/amodb-php` or your go.mod line.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: input
+    id: runtime
+    attributes:
+      label: Runtime and OS
+      placeholder: "Node 22.11 on Ubuntu 24.04"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Say what you did and what you saw.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: The smallest code or request that shows the problem. Use an environment variable for the key.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Request and response
+      description: Request path without the key, UTC time, HTTP status and response body, if the API was involved.
+      render: shell
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I am on the latest release of the package.
+          required: true
+        - label: I searched the open and closed issues.
+          required: true
+        - label: I removed every API key from this report.
+          required: true

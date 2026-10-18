@@ -1,0 +1,51 @@
+name: Feature request
+description: Suggest a change to an amodb SDK, the MCP server, the spec or an example
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for changes to the code in this repository. Requests for new API data or endpoints are welcome too, mark the package as Other.
+  - type: dropdown
+    id: package
+    attributes:
+      label: Package
+      options:
+        - amodb-js
+        - amodb-python
+        - amodb-php
+        - amodb-go
+        - amodb-mcp
+        - amodb-openapi
+        - amodb-examples
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What are you trying to do, and what stops you today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: What should the API or behavior look like? A short code sample helps.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: What did you try or consider instead?
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched the open and closed issues.
+          required: true
+        - label: I would be willing to send a pull request.
