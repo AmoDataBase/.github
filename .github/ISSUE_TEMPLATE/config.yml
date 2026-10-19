@@ -10,5 +10,5 @@ contact_links:
     url: https://amodb.dev/status
     about: Check whether the API is up before you report a problem.
   - name: Security report
-    url: https://github.com/amodb-dev/.github/blob/main/SECURITY.md
+    url: https://github.com/AmoDataBase/.github/blob/main/SECURITY.md
     about: Email security@amodb.dev. Do not open a public issue.

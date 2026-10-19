@@ -14,7 +14,7 @@ Please do not open a public issue or pull request for a security report. Never i
 
 ## Scope
 
-This policy covers every repository in the amodb-dev organization and the API at https://api.amodb.dev. Problems in the API itself, such as key checks, rate limits or exposed data, are in scope for the same address.
+This policy covers every repository in the AmoDataBase organization and the API at https://api.amodb.dev. Problems in the API itself, such as key checks, rate limits or exposed data, are in scope for the same address.
 
 ## Supported versions
 

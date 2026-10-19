@@ -2,7 +2,7 @@
 
 Thanks for helping. Keep changes small and focused.
 
-This file applies to every repository in the amodb-dev organization that does not ship its own CONTRIBUTING.md. Repository files take priority and list the exact checks for their stack.
+This file applies to every repository in the AmoDataBase organization that does not ship its own CONTRIBUTING.md. Repository files take priority and list the exact checks for their stack.
 
 ## Before you start
 

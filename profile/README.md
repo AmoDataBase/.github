@@ -1,12 +1,12 @@
 <a href="https://amodb.dev">
-  <img src="https://raw.githubusercontent.com/amodb-dev/.github/main/assets/banner.png" alt="amodb, movie and TV metadata API" width="100%">
+  <img src="https://raw.githubusercontent.com/AmoDataBase/.github/main/assets/banner.png" alt="amodb, movie and TV metadata API" width="100%">
 </a>
 
 # amodb
 
 **Movie and TV metadata API that speaks TMDB v3 and OMDb.** Change the base URL, keep your code.
 
-[Website](https://amodb.dev) · [Docs](https://amodb.dev/docs) · [Quick start](https://amodb.dev/quickstart) · [Pricing](https://amodb.dev/pricing) · [Status](https://amodb.dev/status)
+[Website](https://amodb.dev) · [Docs](https://amodb.dev/docs) · [Quick start](https://amodb.dev/quickstart) · [Pricing](https://amodb.dev/pricing) · [Status](https://amodb.dev/status) · [YouTube](https://www.youtube.com/@amodatabase)
 
 ## What you get
 
@@ -20,13 +20,13 @@
 
 | Repository | What it is | Install |
 |---|---|---|
-| [amodb-js](https://github.com/amodb-dev/amodb-js) | JavaScript and TypeScript client | `npm install amodb` |
-| [amodb-python](https://github.com/amodb-dev/amodb-python) | Python client, sync and async | `pip install amodb` |
-| [amodb-php](https://github.com/amodb-dev/amodb-php) | PHP client | `composer require amodb/amodb-php` |
-| [amodb-go](https://github.com/amodb-dev/amodb-go) | Go client | `go get github.com/amodb-dev/amodb-go` |
-| [amodb-mcp](https://github.com/amodb-dev/amodb-mcp) | MCP server for Claude, Cursor and VS Code | `npx -y amodb-mcp` |
-| [amodb-openapi](https://github.com/amodb-dev/amodb-openapi) | OpenAPI 3.1 spec, Postman and Insomnia collections | `openapi.yaml` |
-| [amodb-examples](https://github.com/amodb-dev/amodb-examples) | Next.js app, Python CLI, Telegram and Discord bots | `git clone` |
+| [amodb-js](https://github.com/AmoDataBase/amodb-js) | JavaScript and TypeScript client | `npm install amodb` |
+| [amodb-python](https://github.com/AmoDataBase/amodb-python) | Python client, sync and async | `pip install amodb` |
+| [amodb-php](https://github.com/AmoDataBase/amodb-php) | PHP client | `composer require amodb/amodb-php` |
+| [amodb-go](https://github.com/AmoDataBase/amodb-go) | Go client | `go get github.com/AmoDataBase/amodb-go` |
+| [amodb-mcp](https://github.com/AmoDataBase/amodb-mcp) | MCP server for Claude, Cursor and VS Code | `npx -y amodb-mcp` |
+| [amodb-openapi](https://github.com/AmoDataBase/amodb-openapi) | OpenAPI 3.1 spec, Postman and Insomnia collections | `openapi.yaml` |
+| [amodb-examples](https://github.com/AmoDataBase/amodb-examples) | Next.js app, Python CLI, Telegram and Discord bots | `git clone` |
 
 ## Quick start
 
@@ -48,4 +48,4 @@ curl "https://api.amodb.dev/omdb/?apikey=$AMODB_API_KEY&t=Fight+Club"
 
 ## Get help
 
-Read [SUPPORT.md](https://github.com/amodb-dev/.github/blob/main/SUPPORT.md) for where to ask. Report security problems to security@amodb.dev, see [SECURITY.md](https://github.com/amodb-dev/.github/blob/main/SECURITY.md).
+Read [SUPPORT.md](https://github.com/AmoDataBase/.github/blob/main/SUPPORT.md) for where to ask. Report security problems to security@amodb.dev, see [SECURITY.md](https://github.com/AmoDataBase/.github/blob/main/SECURITY.md).
